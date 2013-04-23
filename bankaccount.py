@@ -79,9 +79,15 @@ class CurrentAccount(Account):
 savings_acct1 = SavingsAccount("C01", 0, 0.01)
 savings_acct1.deposit(500)
 savings_acct1.calc_interest()
-savings_acct1.display()
+# savings_acct1.display()
 
 current_acct1 = CurrentAccount("C01", 0, 500)
 current_acct1.withdraw(300)
 current_acct1.withdraw(300)
-current_acct1.display()
+# current_acct1.display()
+
+accounts = []
+accounts.append(savings_acct1)
+accounts.append(current_acct1)
+for account in accounts:
+    account.display()
