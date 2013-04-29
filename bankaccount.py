@@ -1,6 +1,6 @@
 # bankaccount.py
 
-class Account():
+class Account:
     """ bank account super class """
 
     def __init__(self, account_no, balance):

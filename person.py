@@ -1,6 +1,6 @@
 # person.py
 
-class Person():
+class Person:
     """ person super class """
     def __init__(self, pid, name):
         """ constructor for person """
